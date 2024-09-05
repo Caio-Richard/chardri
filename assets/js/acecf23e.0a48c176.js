@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchardri=self.webpackChunkchardri||[]).push([[1903],{1912:r=>{r.exports=JSON.parse('{"blogBasePath":"/chardri/blog","blogTitle":"Blog","authorsListPath":"/chardri/blog/authors"}')}}]);
