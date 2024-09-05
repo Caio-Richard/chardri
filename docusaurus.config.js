@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Chardri bandi',
   tagline: 'Chupeteiro máximo',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo-chardri.png',
 
   // Set the production url of your site here
   url: 'https://caio-richard.github.io',
@@ -30,8 +30,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'pt-br',
+    locales: ['pt-br'],
   },
 
   presets: [
@@ -72,23 +72,23 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo-chardri.png',
       navbar: {
-        title: 'My Site',
+        title: 'Chardri',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Logo',
+          src: 'img/logo-chardri.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/sobremim', label: 'Sobre mim', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Caio-Richard',
             label: 'GitHub',
             position: 'right',
           },
@@ -98,46 +98,30 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Explore',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Docs',
+                to: '/docs/introducao',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Conheça',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/caio-richard-125192204/',
+                img: 'img/linkedinicone.png'
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Caio-Richard',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Chardri, Caio Richard`,
       },
       prism: {
         theme: prismThemes.github,
